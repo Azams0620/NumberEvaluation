@@ -42,7 +42,7 @@ public class Main {
     System.out.println("Let's see how many times our sum can go into 100");
     int sumA = 0;
     int part = 1;
-    while(sumA<= (100-sumA)){
+    while(sumA<= (100-sum)){
       sumA = sumA + sum;
       System.out.println(part);
       part++;
@@ -64,6 +64,24 @@ public class Main {
     else{
       System.out.println("Cool! the number you chose was " + numDoub);
     }
+
+
+    System.out.println("Guess what. " + numDoub + " is my favorite decimal number too!");
+    Double sumDoub = numDoub * 2;
+    System.out.println("The sum of these numbers are " + sumDoub);
+    System.out.println("Just like we did for the whole numbers, let's see how many times this sum goes into 100");
+    
+    
+    int partA = 1;
+    for (double sumB = 0.0; sumB<= 100.0 - sumDoub; partA++)
+    {
+      sumB = sumB + sumDoub;
+      System.out.println(partA);
+    }
+
+    System.out.print("Well, that's all " + name + ". See you next time to evaluate some more numbers.");
+
+
 
     
 
