@@ -6,7 +6,7 @@ public class Main {
     Scanner scan = new Scanner(System.in);
 
     
-    System.out.println("What is your name?");
+    System.out.println("Hi! What is your name?");
     //Indication for user input for name
     String name = scan.next();
     System.out.println("Hi " + name + ", I am Number Bot");
