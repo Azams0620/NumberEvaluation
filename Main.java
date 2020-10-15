@@ -28,7 +28,7 @@ public class Main {
     }
 
 
-    int favNum = 7; 
+    int favNum = 8; 
     System.out.println(name + ", try to guess my favorite whole number between 1 and 10");
     //User input for a guess of the variable
     int guessOne = scan.nextInt();
@@ -36,7 +36,7 @@ public class Main {
 
     // If the guess was not equal to the variable
     if(guessOne != favNum){
-      System.out.println("Nope, that's not it. My number was actually 7");
+      System.out.println("Nope, that's not it. My number was actually 8");
     }
     // If the guess WAS equal to the variable
     else{
