@@ -34,7 +34,7 @@ public class Main {
     int guessOne = scan.nextInt();
 
 
-    // If the guess was not equal to the variable
+    // If the guess was NOT equal to the variable
     if(guessOne != favNum){
       System.out.println("Nope, that's not it. My number was actually 8");
     }
@@ -74,7 +74,7 @@ public class Main {
     }
     //Else If statement for if the number is less than 10.001
     //Also if the number is less than 1.0
-    else 
+   
     if(numDoub > 10.0 ||numDoub < 1.0){
       System.out.println("Sorry, you didn't listen to me, and chose " + numDoub +", so I made your number 10.0!\n");
       numDoub = 10.0;
