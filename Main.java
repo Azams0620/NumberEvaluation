@@ -45,7 +45,7 @@ public class Main {
      
     //Sequence to create a new variable
     int sum = num + favNum;
-    System.out.println("I wonder what the sum of both our numbers are. Oh! it's " + sum);
+    System.out.println("I wonder what the sum of both our favoite numbers are. Oh! it's " + sum);
 
     
     System.out.println("Let's see how many times our sum can go into 100");
