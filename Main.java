@@ -43,7 +43,6 @@ public class Main {
       System.out.println("Yeah, that's right!");
     }
      
-
     //Sequence to create a new variable
     int sum = num + favNum;
     System.out.println("I wonder what the sum of both our numbers are. Oh! it's " + sum);
