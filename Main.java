@@ -19,12 +19,12 @@ public class Main {
 
     if(num< 1 || num > 10){
       //If the integer is not 1-10:
+      System.out.println("Sorry, you didn't listen to me, and chose " + num +", so I made your number 10!\n");
       num = 10;
-      System.out.println("Sorry, you didn't listen to me, and chose " + num +", so I made your number 10!");
     } 
     else{
       //This will return if the number was 1-10
-        System.out.println("Good job! You chose a number between 1 and 10: " + num);
+        System.out.println("Good job! You chose a number between 1 and 10: " + num + "\n");
     }
 
 
@@ -59,30 +59,30 @@ public class Main {
       System.out.println(part);
       part++;
     }
-    System.out.print("Wow, our sum goes into 100 " + part + " times!")
+    System.out.println("Wow, our sum goes into 100 " + part + " times!\n");
     
     
     //Another part of the program dealing with doubles
-    System.out.println("Lat's move into numbers with decimals, choose a number with a decimal between 1 and 10");
+    System.out.println("Let's move into numbers with decimals, choose a number with a decimal between 1 and 10");
     //User input for a double
     double numDoub = scan.nextDouble();
     
     //Statement for is number is over 10.0
     //I used >=10.001 as an extra parameter
     if(numDoub > 10.0 && numDoub >= 10.001){
-      System.out.println("Sorry, you didn't listen to me, and chose " + numDoub +", so I made your number 10.0!");
+      System.out.println("Sorry, you didn't listen to me, and chose " + numDoub +", so I made your number 10.0!\n");
       numDoub = 10.0;
     }
     //Else If statement for if the number is less than 10.001
     //Also if the number is less than 1.0
     else 
     if(numDoub > 10.0 ||numDoub < 1.0){
-      System.out.println("Sorry, you didn't listen to me, and chose " + numDoub +", so I made your number 10.0!");
+      System.out.println("Sorry, you didn't listen to me, and chose " + numDoub +", so I made your number 10.0!\n");
       numDoub = 10.0;
     }
     //The else staement will be if the number was between 1.0 and 10.0
     else{
-      System.out.println("Cool! the number you chose was " + numDoub);
+      System.out.println("Cool! the number you chose was " + numDoub + "\n");
     }
 
   
@@ -101,7 +101,7 @@ public class Main {
       sumB = sumB + sumDoub;
       System.out.println(partA);
     }
-    System.out.print("Wow, our sum goes into 100 " + partA + " times!");
+    System.out.println("Wow, our sum goes into 100 " + partA + " times!\n");
 
     System.out.print("Well, that's all " + name + ". See you next time to evaluate some more numbers.");
 
