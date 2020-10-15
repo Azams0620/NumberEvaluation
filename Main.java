@@ -104,32 +104,6 @@ public class Main {
 
     System.out.print("Well, that's all " + name + ". See you next time to evaluate some more numbers.");
 
-
-
-    
-
-
-
-
-
-
-
-    
-  
-
-
-
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
     }
  
   }
